@@ -1,3 +1,13 @@
+# Tarea 7: Ejercicios sencillos sobre Tablas
+
+# Ejercicio 1: Implementa un programa Java con un método llamado
+# sum(int [] tabla) que muestre por pantalla el resultado de sumar todos los
+# elementos de la tabla pasada como parámetro.
+
+
+
+
+
 numeros = [2,4,6,77,8,4]
 
 print(sum(numeros))

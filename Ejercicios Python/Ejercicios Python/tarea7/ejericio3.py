@@ -1,3 +1,10 @@
+
+# Ejercicio 3: Implementa un programa Java con un método llamado
+# contains(String[] tabla, String cadena) que devuelva TRUE, sí o solo sí,
+# alguno de los elementos de la tabla pasada como parámetro es igual al
+# valor de la variable “cadena”.
+
+
 Strings = ["python", "cadena", "objeto", "recursivo"]
 palabra = "cadena"
 

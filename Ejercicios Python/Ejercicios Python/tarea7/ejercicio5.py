@@ -1,3 +1,10 @@
+# Ejercicio 5: Implementa un programa Java con un método llamado
+# copyArray(String[] tabla, String[] tabla2) que devuelva “tabla2” con los
+# mismos valores de “tabla”. Es decir, el programa debe copiar el contenido
+# de una tabla en otra.
+
+
+
 Strings = ["python", "cadena", "objeto", "recursivo"]
 Strings2 = []
 

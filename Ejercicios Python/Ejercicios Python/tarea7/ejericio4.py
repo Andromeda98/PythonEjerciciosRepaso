@@ -1,3 +1,10 @@
+
+# Ejercicio 4: Implementa un programa Java con un método llamado
+# indexContains(String[] tabla, String cadena) que devuelva el índice de la
+# tabla cuyo valor es igual al valor de “cadena”. En caso de no haber ningún
+# valor igual, devuelve -1
+
+
 Strings = ["python", "cadena", "objeto", "recursivo"]
 palabra = "cadena"
 
