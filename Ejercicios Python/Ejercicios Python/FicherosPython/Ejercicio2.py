@@ -28,9 +28,36 @@ def main():
         linea_completa = nombre_completo + "." * puntos + dnies[i]
         lineas_finales.append(linea_completa)
 
-    print("Resultado final:")
+    print("Resultado final de las lineas:")
     for linea in lineas_finales:
         print(linea)
 
+    print("AHORA VAMOS A CREAR EL ARCHIVO DONDE SE VA A ESCRIBIR EL CONTENIDO")
+
+    ruta = input("Introduce la ruta de la carpeta donde crear el archivo: ").replace("\\", "/")
+    nombre = input("Introduce el nombre del archivo: ")
+    # Crear carpetas si no existen
+    os.makedirs(ruta, exist_ok=True)
+    ruta_nombre = os.path.join(ruta, nombre)
+    # Crear archivo
+
+    archivo = open(ruta_nombre, "w", encoding="utf-8")
+
+    for linea in lineas_finales:
+        archivo.write(linea + "\n")
+
+    archivo.close()
+
+    archivo = open(ruta_nombre, "r", encoding="utf-8")
+    lineas = archivo.readlines()
+    archivo.close()
+
+    print("El contenido del archivo creado y en el que hemos introducido la informacion es:")
+    for linea in lineas:
+        print(linea, end="")
+
+
+    
+        
 if __name__ == "__main__":
     main()
