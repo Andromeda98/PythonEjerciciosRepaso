@@ -30,19 +30,11 @@ def main():
         print(palabra, end=" ")
 
     for palabra in palabras_texto:
-        if palabras_buscadas[0] == palabra:
-            ocurrencia1 += 1
-        elif palabras_buscadas[1] == palabra:
-            ocurrencia2 += 1
-        elif palabras_buscadas[2] == palabra:
-            ocurrencia3 += 1
-        elif palabras_buscadas[3] == palabra:
-            ocurrencia4 += 1
+        if palabra == palabras_buscadas[0]
+        palabras_buscadas[0] 
+      
 
-    for palabra in palabras_buscadas:
-
-        print(f"{palabra} -> ocurrencias{ocurrencia1} ")
-
+ 
 
 
 
